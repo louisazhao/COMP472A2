@@ -9,11 +9,13 @@ public class Main {
         validationData1.generateArffFile();
 
         NaiveBayesML naiveBayesData1 = new NaiveBayesML(trainingData1, validationData1);
-        naiveBayesData1.trainModel();
-        naiveBayesData1.evaluateModelWithValidationSet();
+        //comment out the following line to see the saved model actually works, you need to run the line at least once
+        //naiveBayesData1.trainAndSaveModel("DataSet-Release 1/ds1/naiveBayes1.model");
+        naiveBayesData1.evaluateModelWithValidationSet("DataSet-Release 1/ds1/naiveBayes1.model","DataSet-Release 1/ds1/naiveBayes1Prediction.csv");
 
         DecisionTree decisionTreeData1 = new DecisionTree(trainingData1, validationData1);
-        decisionTreeData1.trainModel();
-        decisionTreeData1.evaluateModelWithValidationSet();
+        //comment out the following line to see the saved model actually works, you need to run the line at least once
+        //decisionTreeData1.trainAndSaveModel("DataSet-Release 1/ds1/decisionTree1.model");
+        decisionTreeData1.evaluateModelWithValidationSet("DataSet-Release 1/ds1/decisionTree1.model","DataSet-Release 1/ds1/decisionTree1Prediction.csv");
     }
 }
