@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241c1d76-692c-42dd-a702-200537213478" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MultilayerPerceptronML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Train.arff" beforeDir="false" afterPath="$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Train.arff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Val.arff" beforeDir="false" afterPath="$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Val.arff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Val.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/decisionTree1.model" beforeDir="false" afterPath="$PROJECT_DIR$/DataSet-Release 1/ds1/decisionTree1.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/decisionTree1Prediction.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/naiveBayes1.model" beforeDir="false" afterPath="$PROJECT_DIR$/DataSet-Release 1/ds1/naiveBayes1.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataSet-Release 1/ds1/naiveBayes1Prediction.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COMP472A2/DecisionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP472A2/DecisionTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COMP472A2/FileProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP472A2/FileProcess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/COMP472A2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP472A2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/COMP472A2/NaiveBayesML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP472A2/NaiveBayesML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DecisionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecisionTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileProcess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NaiveBayesML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NaiveBayesML.java" afterDir="false" />
     </list>
@@ -31,40 +20,43 @@
     <session id="1193707617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="arff" value="6" />
-          <entry key="class" value="26" />
+          <entry key="class" value="28" />
           <entry key="csv" value="10" />
           <entry key="csvCopy" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
+          <entry key="model" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="JAVA" value="9" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="CLASS" value="28" />
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4852" />
+          <entry key="java" value="5348" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4852" />
+          <entry key="JAVA" value="5348" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NaiveBayesML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="135" column="14" lean-forward="true" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+            <state relative-caret-position="2115">
+              <caret line="158" column="54" selection-start-line="16" selection-start-column="4" selection-end-line="158" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,14 +76,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MultilayerPerceptronML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecisionTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="495">
               <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,17 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="179">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -140,9 +142,11 @@
         <option value="$PROJECT_DIR$/src/IndexToSymbol.java" />
         <option value="$PROJECT_DIR$/src/Filter.java" />
         <option value="$PROJECT_DIR$/src/FileProcess.java" />
-        <option value="$PROJECT_DIR$/src/NaiveBayesML.java" />
         <option value="$PROJECT_DIR$/src/DecisionTree.java" />
+        <option value="$PROJECT_DIR$/src/NaiveBayesML.java" />
+        <option value="$PROJECT_DIR$/src/MultilayerPerceptron.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/MultilayerPerceptronML.java" />
       </list>
     </option>
   </component>
@@ -241,24 +245,34 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48821083" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.37864077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32871014" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32871014" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.37864077" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,13 +336,7 @@
     <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/ds1Info.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Val.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="35" column="3073" selection-start-line="35" selection-start-column="3072" selection-end-line="35" selection-end-column="3073" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Val.csv" />
     <entry file="jar:///Applications/weka-3-8-3/weka.jar!/weka/core/Instances.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -362,9 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,13 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/naiveBayes1Prediction.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/naiveBayes1Prediction.csv" />
     <entry file="jar:///Applications/weka-3-8-3/weka.jar!/weka/classifiers/evaluation/Evaluation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -450,51 +449,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1960" column="21" selection-start-line="1960" selection-start-column="21" selection-end-line="1960" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/copy_ds1Train.csv" />
     <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds2/copy_ds2Train.arff">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15192" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds1/multilayerPerceptron1.model">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet-Release 1/ds2/naiveBayes2.model">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+        <state relative-caret-position="188">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NaiveBayesML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="135" column="14" lean-forward="true" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+        <state relative-caret-position="2115">
+          <caret line="158" column="54" selection-start-line="16" selection-start-column="4" selection-end-line="158" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecisionTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="495">
           <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/weka-3-8-3/weka.jar!/weka/classifiers/functions/MultilayerPerceptron.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2019">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultilayerPerceptronML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="179">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -23,6 +23,9 @@ public class Main {
         //decisionTreeData1.trainAndSaveModel("DataSet-Release 1/ds1/decisionTree1.model");
         decisionTreeData1.evaluateModelWithValidationSet("DataSet-Release 1/ds1/decisionTree1.model", "DataSet-Release 1/ds1/ds1Val-dt.csv");
 
+        MultilayerPerceptronML multilayerPerceptronML1=new MultilayerPerceptronML(trainingData1,validationData1);
+        //multilayerPerceptronML1.trainAndSaveModel("DataSet-Release 1/ds1/multilayerPerceptron1.model");
+        multilayerPerceptronML1.evaluateModelWithValidationSet("DataSet-Release 1/ds1/multilayerPerceptron1.model","DataSet-Release 1/ds1/ds1Val-3.csv");
 
 
         /********        dataset2         ******/
@@ -43,5 +46,9 @@ public class Main {
         //comment out the following line to see the saved model actually works, you need to run the line at least once
         //decisionTreeData2.trainAndSaveModel("DataSet-Release 1/ds2/decisionTree2.model");
         decisionTreeData2.evaluateModelWithValidationSet("DataSet-Release 1/ds2/decisionTree2.model", "DataSet-Release 1/ds2/ds2Val-dt.csv");
+
+        MultilayerPerceptronML multilayerPerceptronML2=new MultilayerPerceptronML(trainingData2,validationData2);
+        //multilayerPerceptronML2.trainAndSaveModel("DataSet-Release 1/ds2/multilayerPerceptron2.model");
+        multilayerPerceptronML2.evaluateModelWithValidationSet("DataSet-Release 1/ds2/multilayerPerceptron2.model","DataSet-Release 1/ds2/ds2Val-3.csv");
     }
 }

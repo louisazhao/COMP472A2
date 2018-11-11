@@ -111,6 +111,11 @@ public class NaiveBayesML {
 
                 System.out.println(evaluation.toSummaryString("\nResults [Naive Based]\n\n", false));
                 System.out.println(evaluation.toMatrixString()); //confusion matrix, will be useful for report
+                /*recall output
+                for(int j=0;j<10;j++) {
+                    System.out.println("class: "+j+ " "+evaluation.recall(j));
+                }
+                */
             }
         } catch (Exception e) {
             e.printStackTrace();
