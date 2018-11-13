@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="241c1d76-692c-42dd-a702-200537213478" name="Default Changelist" comment="" />
+    <list default="true" id="241c1d76-692c-42dd-a702-200537213478" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,30 +35,33 @@
           <entry key="csvCopy" value="1" />
           <entry key="java" value="16" />
           <entry key="model" value="2" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="29" />
           <entry key="JAVA" value="16" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="6101" />
+          <entry key="txt" value="372" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6101" />
+          <entry key="PLAIN_TEXT" value="372" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MachineLearningModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
@@ -120,8 +125,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <state relative-caret-position="675">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -159,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/NaiveBayesML.java" />
         <option value="$PROJECT_DIR$/src/FileProcess.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -179,23 +194,6 @@
             <path>
               <item name="COMP472A2" type="b2602c69:ProjectViewProjectNode" />
               <item name="COMP472A2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COMP472A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COMP472A2" type="462c0819:PsiDirectoryNode" />
-              <item name="OutputFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COMP472A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COMP472A2" type="462c0819:PsiDirectoryNode" />
-              <item name="OutputFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="ds1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="COMP472A2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COMP472A2" type="462c0819:PsiDirectoryNode" />
-              <item name="OutputFiles" type="462c0819:PsiDirectoryNode" />
-              <item name="ds2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="COMP472A2" type="b2602c69:ProjectViewProjectNode" />
@@ -281,14 +279,14 @@
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.37864077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871014" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" weight="0.32871014" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.37864077" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -549,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MultilayerPerceptronML.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -607,6 +598,20 @@
             <element signature="e#1408#1409#0" expanded="true" />
             <element signature="e#1442#1443#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
         </state>
       </provider>
     </entry>
