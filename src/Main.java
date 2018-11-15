@@ -75,7 +75,7 @@ public class Main {
         RandomForestML randomForestData2 = new RandomForestML(trainingData2, validationData2, testSet2);
         //comment out the following line to see the saved model actually works, you need to run the line at least once
         randomForestData2.trainAndSaveModel("OutputFiles/ds2/randomForest2.model");
-        randomForestData2.evaluateModelWithValidationSet("OutputFiles/ds2/randomForest2.model", "OutputFiles/ds1/ds2Val-rf.csv");
+        randomForestData2.evaluateModelWithValidationSet("OutputFiles/ds2/randomForest2.model", "OutputFiles/ds2/ds2Val-rf.csv");
         randomForestData2.classifyNewData("OutputFiles/ds2/randomForest2.model", "OutputFiles/ds2/ds2Test-rf.csv");
     }
 }
